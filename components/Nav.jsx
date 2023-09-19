@@ -14,7 +14,6 @@ const Nav = () => {
     useEffect(() => {
         (async () => {
             const res = await getProviders();
-            console.log("🚀 ~ res:", res);
 
             setProviders(res);
         })();
